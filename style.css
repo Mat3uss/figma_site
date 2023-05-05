@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: black;
+}
+body{
+    background-color: #cccbcb;
+    background-image: url(./img/image\ 3.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+header{
+    display: grid;
+}
+.logo{
+    margin-left: 10%;
+    display: inline-flex
+}
+.profile{
+    display: inline-flex;
+}
+.vetor{
+    position: absolute;
+    left: 78%;
+    right: 10%;
+    top: 5%;
+    bottom: 90%;
+    width: 25px;
+    height: 25px;
+
+}
+.perfil{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 85%;
+    top: 20px;
+}
+.logoimagem{
+height: 35px;
+width: 35px;
+}
+.topo{
+background-color: #1C1A18;
+align-items: center;
+height: 70px;
+}
+.textotopo{
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: 50%;
+    margin: 2% 0;
+    align-items: center;
+    width: 400px;
+    color: white;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
