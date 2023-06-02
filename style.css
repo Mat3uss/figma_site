@@ -19,21 +19,7 @@ header{
     background-color: black;
     align-items: center;
     gap: 60px;
-    padding-left: 160px;
-    padding-right: 160px;
 }
-
-img[alt~=logo]{
-    width: 94px;
-}
-
-.direita{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    align-content: space-between;
-}
-
 .options{
     display: flex;
     width: fit-content;
@@ -44,7 +30,7 @@ img[alt~=logo]{
 
 .buttons{
     display: flex;
-    gap: 75p;
+    gap: 70px;
 }
 
 .logo{
@@ -74,32 +60,16 @@ img[alt~=logo]{
     left: 85%;
     top: 5%;
 }
-.sakura{
-    margin-left: 5%;
-    color: red;
+.texto{
     position: absolute;
-    width: 700px;
-    height: 128px;
-    left: 200px;
-
-    font-family: 'Mr Bedfort';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 50px;
-    line-height: 201px;
-}
-.textoprincipal{
-    position: absolute;
-    width: 600px;
-    height: 128px;
-    left: 320px;
-    bottom: 0px;
+    width: auto;
+    height: auto;
+    left: 130px;
+    top: 200px;
     
     font-family: 'Mr Bedfort';
     font-style: normal;
-    font-weight: 200;
     font-size: 50px;
-    line-height: 201px;
     color: white;
 }
 
@@ -201,23 +171,95 @@ footer{
 }
 @media(max-width: 1024px){
 
-body{
-    background-size: cover;
 }
-.topo{
-background-color: #1C1A18;
-align-items: center;
-height: 90px;
-}
-.textotopo{
-    font-family: 'Inter', sans-serif;
-    display: inline-flex;
-    justify-content: space-between;
-    font-size: 50%;
-    margin: 2% 0;
-    align-items: center;
-    width: 400px;
-    color: white;
-} 
 
+ 
+
+@media(max-width: 767px) {
+    header{
+        height: 100px;
+        width: 375px;
+        gap: 15px;
+        }
+    }
+    .logo{
+        height: 50px;
+    }
+    .options{
+            gap: 5px;
+            color: white;
+            font-size: 8px;
+    }
+    .buttons{
+        margin-bottom: auto;
+        margin-left: auto;
+    }
+    .perfil{
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        top: 35px;
+        
+    }
+    .vetor{
+    position: absolute;
+    left: 75%;
+    top: 40px;
+    }
+.texto{
+    left: 45px;
+    height: 350px;
+}
+.textosecundario{
+    position: absolute;
+width: 400px;
+height: 30px;
+left: 1px;
+top: 280px;
+
+font-family: 'Rum Raisin';
+font-style: normal;
+font-weight: 5px;
+font-size: 8px;
+
+color: #FFFFFF
+}
+.retangulovermelho{
+position: absolute;
+width: 178px;
+height:65px;
+left: -205px;
+top: 10px;
+
+background: #DB383D;
+border-radius: 25px;
+}
+.pedidoretangulo{ 
+position: absolute;
+width: 178px;
+height:10px;
+top: 20px;
+left: 12px;
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-size: 10px;
+
+color: #FFFFFF;
+}
+
+.cesta{
+    position: absolute;
+    width: 78px;
+    height:78px;
+    top: 10px;
+    left: 100px;
+
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+.cestaimg{
+    height: 70px;
+    width: 70px;
 }
