@@ -109,7 +109,7 @@ header{
     height: 100px;
     left: 50px;
     top: 200px;
-    margin-left:40%;
+    margin-left:22%;
     
     background: #DB383D;
     border-radius: 25px;
@@ -135,9 +135,8 @@ header{
     position: absolute;
     width: 72px;
     height: 77px;
-    left: 1000px;
     top: 210px;
-    margin-left: 30%;
+    margin-left: 63%;
     
 }
 .cesta:hover{
@@ -163,7 +162,7 @@ header{
 }
 footer{
     position: absolute;
-    width: 300px;
+    width: 1000px;
     height: 70px;
     left: 100px;
     top: 480px;
@@ -181,7 +180,7 @@ footer{
         width: 375px;
         gap: 15px;
         }
-    }
+    
     .logo{
         height: 50px;
     }
@@ -207,8 +206,7 @@ footer{
     top: 40px;
     }
 .texto{
-    left: 45px;
-    height: 350px;
+    left: 125px;
 }
 .textosecundario{
     position: absolute;
@@ -262,4 +260,5 @@ color: #FFFFFF;
 .cestaimg{
     height: 70px;
     width: 70px;
+}
 }
