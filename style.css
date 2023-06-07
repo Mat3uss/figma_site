@@ -3,22 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
-main{
-    background-color: black;
-}
+
 body{
-    background-color: transparent;
     background-image: url(/img/image\ 3.png);
     background-size:cover;
     background-repeat: no-repeat;
-}
-header{
+    height: 100vh;
     display: grid;
+    font-family: 'Inter', sans-serif;
+    grid-template-rows: 135px 1fr 246px;
 }
+
+header{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    gap: 60px;
+}
+.options{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    gap: 48px;
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    gap: 70px;
+}
+
 .logo{
     margin-left: 10%;
     display: inline-flex;
     left: 120px;
+}
+.logo:hover{
+    transform: scale(1.3);
 }
 .profile{
     display: inline-flex;
@@ -27,7 +48,7 @@ header{
     position: absolute;
     left: 78%;
     right: 10%;
-    top: 5%;
+    top: 48px;
     bottom: 90%;
     width: 25px;
     height: 25px;
@@ -37,61 +58,28 @@ header{
     width: 30px;
     height: 30px;
     left: 85%;
-    top: 5%;
+    top: 7%;
 }
-.logoimagem{
-height: 50px;
-width: 50px;
-}
-.topo{
-background-color: #1C1A18;
-align-items: center;
-height: 90px;
-}
-.textotopo{
-    font-family: 'Inter', sans-serif;
-    display: inline-flex;
-    justify-content: space-between;
-    font-size: 50%;
-    margin: 2% 0;
-    align-items: center;
-    width: 400px;
+.texto{
+    position: absolute;
+    width: auto;
+    height: 50px;
+    left: 150px;
+    top: 200px;
+    
+    font-family: 'Mr Bedfort';
+    font-style: normal;
+    font-size: 50px;
     color: white;
 }
-.textoprincipal{
-    position: absolute;
-    width: 929px;
-    height: 128px;
-    left: 400px;
-    top: 100px;
-    
-    font-family: 'Mr Bedfort';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 50px;
-    line-height: 201px;
-    color: black;
-}
-.sakura{
-    color: red;
-    position: absolute;
-    width: 900px;
-    height: 128px;
-    left: 100px;
-    top: 100px;
-    
-    font-family: 'Mr Bedfort';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 50px;
-    line-height: 201px;
-}
+
 .textosecundario{
     position: absolute;
     width: 1000px;
     height: 42px;
     left: 100px;
-    top: 350px;
+    top: 50%;
+    margin-left: 3%;
     
     font-family: 'Rum Raisin';
     font-style: normal;
@@ -105,8 +93,8 @@ height: 90px;
     position: absolute;
     width: 900px;
     height: 20px;
-    left: 30px;
-    top: 17px;
+    left: 70px;
+    top: 30px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -115,21 +103,42 @@ height: 90px;
 
     color: #FFFFFF;
 }
+.retangulovermelho{
+    position: absolute;
+    width: 375px;
+    height: 100px;
+    left: 30px;
+    top: 55px;
+    
+    background: #DB383D;
+    border-radius: 25px;
+}
+.retangulovermelho:hover{
+    transform: scale(1.1);
+}
 .retangulocesta{
     position: absolute;
-    width: 92px;
-    height: 95px;
-    left: 1150px;
+    width: 90px;
+    height: 90px;
+    left: 995px;
+    margin-right: 10%;
+    top: 55px;
 
     background: #FFFFFF;
     border-radius: 25px;
 }
+
 .cesta{
     background-image: url(/img/ph_basket.svg);
     position: absolute;
     width: 72px;
     height: 77px;
-    left: 1155px;
+    top: 50px;
+    margin-left: 100%;
+    
+}
+.cesta:hover{
+    transform: scale(1.1);
 }
 .numerocesta{
     position: absolute;
@@ -151,11 +160,109 @@ height: 90px;
 }
 footer{
     position: absolute;
-    width: 300px;
+    width: auto;
     height: 70px;
     left: 100px;
-    top: 550px;
+    top: 480px;
     
-    background: #DB383D;
+}
+@media(max-width: 1024px){
+
+}
+
+ 
+
+@media(max-width: 767px) {
+    header{
+        height: 100px;
+        width: 375px;
+        gap: 15px;
+        }
+    
+    .logo{
+        height: 50px;
+    }
+    .options{
+            gap: 5px;
+            color: white;
+            font-size: 8px;
+    }
+    .buttons{
+        margin-bottom: auto;
+        margin-left: auto;
+    }
+    .perfil{
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        top: 35px;
+        
+    }
+    .vetor{
+    position: absolute;
+    left: 75%;
+    top: 40px;
+    }
+    
+.texto{
+    left: 40px;
+    height: 50px;
+    width: 325px;
+}
+.textosecundario{
+position: absolute;
+width: 400px;
+height: 30px;
+left: 40px;
+top: 280px;
+
+font-family: 'Rum Raisin';
+font-style: normal;
+font-weight: 5px;
+font-size: 8px;
+
+color: #FFFFFF
+}
+.retangulovermelho{
+position: absolute;
+width: 178px;
+height:65px;
+left: -5%;
+top: 75px;
+
+background: #DB383D;
+border-radius: 25px;
+}
+.pedidoretangulo{ 
+position: absolute;
+width: 178px;
+height:10px;
+top: 20px;
+left: 12px;
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-size: 10px;
+
+color: #FFFFFF;
+}
+.retangulocesta{
+    left: 15%;
+}
+.cesta{
+    position: absolute;
+    width: 78px;
+    height:78px;
+    top: 10px;
+    right: 100%;
+
+    background: #FFFFFF;
     border-radius: 25px;
+}
+
+.cestaimg{
+    height: 70px;
+    width: 70px;
+}
 }
