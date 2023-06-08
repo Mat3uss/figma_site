@@ -63,8 +63,13 @@ header{
 .texto{
     position: absolute;
     width: auto;
+<<<<<<< HEAD
     height: 50px;
     left: 150px;
+=======
+    height: auto;
+    left: 130px;
+>>>>>>> 3a7a1d9f5d87781c8ae0ca10552abded91ef262d
     top: 200px;
     
     font-family: 'Mr Bedfort';
@@ -78,8 +83,13 @@ header{
     width: 1000px;
     height: 42px;
     left: 100px;
+<<<<<<< HEAD
     top: 50%;
     margin-left: 3%;
+=======
+    top: 500px;
+    margin-left: 12%;
+>>>>>>> 3a7a1d9f5d87781c8ae0ca10552abded91ef262d
     
     font-family: 'Rum Raisin';
     font-style: normal;
@@ -107,8 +117,14 @@ header{
     position: absolute;
     width: 375px;
     height: 100px;
+<<<<<<< HEAD
     left: 30px;
     top: 55px;
+=======
+    left: 50px;
+    top: 200px;
+    margin-left:22%;
+>>>>>>> 3a7a1d9f5d87781c8ae0ca10552abded91ef262d
     
     background: #DB383D;
     border-radius: 25px;
@@ -122,7 +138,12 @@ header{
     height: 90px;
     left: 995px;
     margin-right: 10%;
+<<<<<<< HEAD
     top: 55px;
+=======
+    top: 210px;
+    margin-left: 30%;
+>>>>>>> 3a7a1d9f5d87781c8ae0ca10552abded91ef262d
 
     background: #FFFFFF;
     border-radius: 25px;
@@ -133,8 +154,13 @@ header{
     position: absolute;
     width: 72px;
     height: 77px;
+<<<<<<< HEAD
     top: 50px;
     margin-left: 100%;
+=======
+    top: 210px;
+    margin-left: 63%;
+>>>>>>> 3a7a1d9f5d87781c8ae0ca10552abded91ef262d
     
 }
 .cesta:hover{
@@ -160,7 +186,11 @@ header{
 }
 footer{
     position: absolute;
+<<<<<<< HEAD
     width: auto;
+=======
+    width: 1000px;
+>>>>>>> 3a7a1d9f5d87781c8ae0ca10552abded91ef262d
     height: 70px;
     left: 100px;
     top: 480px;
@@ -203,6 +233,7 @@ footer{
     left: 75%;
     top: 40px;
     }
+<<<<<<< HEAD
     
 .texto{
     left: 40px;
@@ -214,6 +245,16 @@ position: absolute;
 width: 400px;
 height: 30px;
 left: 40px;
+=======
+.texto{
+    left: 125px;
+}
+.textosecundario{
+    position: absolute;
+width: 400px;
+height: 30px;
+left: 1px;
+>>>>>>> 3a7a1d9f5d87781c8ae0ca10552abded91ef262d
 top: 280px;
 
 font-family: 'Rum Raisin';
@@ -227,8 +268,13 @@ color: #FFFFFF
 position: absolute;
 width: 178px;
 height:65px;
+<<<<<<< HEAD
 left: -5%;
 top: 75px;
+=======
+left: -205px;
+top: 10px;
+>>>>>>> 3a7a1d9f5d87781c8ae0ca10552abded91ef262d
 
 background: #DB383D;
 border-radius: 25px;
@@ -247,20 +293,31 @@ font-size: 10px;
 
 color: #FFFFFF;
 }
+<<<<<<< HEAD
 .retangulocesta{
     left: 15%;
 }
+=======
+
+>>>>>>> 3a7a1d9f5d87781c8ae0ca10552abded91ef262d
 .cesta{
     position: absolute;
     width: 78px;
     height:78px;
     top: 10px;
+<<<<<<< HEAD
     right: 100%;
+=======
+    left: 100px;
+>>>>>>> 3a7a1d9f5d87781c8ae0ca10552abded91ef262d
 
     background: #FFFFFF;
     border-radius: 25px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3a7a1d9f5d87781c8ae0ca10552abded91ef262d
 .cestaimg{
     height: 70px;
     width: 70px;
